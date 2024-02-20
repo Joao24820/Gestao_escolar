@@ -82,8 +82,6 @@ select * from turno;
 
 select * from alunos join Nota_final on Nota_final.id = Alunos.id ;
 
-select * from Alunos join Graduacao on Alunos.id = Graduacao.id  join Escola ;
-
 select * from Alunos join Graduacao on Alunos.id = Graduacao.id;
 
 select * from Nota_Final;
